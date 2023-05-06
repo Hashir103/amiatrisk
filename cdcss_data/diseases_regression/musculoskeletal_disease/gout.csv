@@ -1,0 +1,146 @@
+Population,Count,"Rate (per 100,000)",Province,Sex,Age Group
+30720869,41320,134,Canada,Both sexes,20+
+0,0,0,Newfoundland and Labrador,Both sexes,20-34
+0,0,0,Newfoundland and Labrador,Both sexes,35-49
+0,0,0,Newfoundland and Labrador,Both sexes,50-64
+0,0,0,Newfoundland and Labrador,Both sexes,65-79
+0,0,0,Newfoundland and Labrador,Males,20-34
+0,0,0,Newfoundland and Labrador,Males,35-49
+0,0,0,Newfoundland and Labrador,Males,50-64
+0,0,0,Newfoundland and Labrador,Males,65-79
+0,0,0,Newfoundland and Labrador,Females,20-34
+0,0,0,Newfoundland and Labrador,Females,35-49
+0,0,0,Newfoundland and Labrador,Females,50-64
+0,0,0,Newfoundland and Labrador,Females,65-79
+0,0,0,Prince Edward Island,Both sexes,20-34
+0,0,0,Prince Edward Island,Males,20-34
+0,0,0,Prince Edward Island,Females,20-34
+0,0,0,Prince Edward Island,Females,35-49
+0,0,0,Nova Scotia,Females,20-34
+0,0,0,New Brunswick,Females,20-34
+0,0,0,Manitoba,Females,20-34
+0,0,0,Yukon Territory,Both sexes,20-34
+0,0,0,Yukon Territory,Both sexes,35-49
+0,0,0,Yukon Territory,Both sexes,50-64
+0,0,0,Yukon Territory,Both sexes,65-79
+0,0,0,Yukon Territory,Males,20-34
+0,0,0,Yukon Territory,Males,35-49
+0,0,0,Yukon Territory,Males,50-64
+0,0,0,Yukon Territory,Males,65-79
+0,0,0,Yukon Territory,Females,20-34
+0,0,0,Yukon Territory,Females,35-49
+0,0,0,Yukon Territory,Females,50-64
+0,0,0,Yukon Territory,Females,65-79
+0,0,0,Nunavut,Both sexes,20-34
+0,0,0,Nunavut,Both sexes,50-64
+0,0,0,Nunavut,Both sexes,65-79
+0,0,0,Nunavut,Males,20-34
+0,0,0,Nunavut,Males,50-64
+0,0,0,Nunavut,Males,65-79
+0,0,0,Nunavut,Females,20-34
+0,0,0,Nunavut,Females,35-49
+0,0,0,Nunavut,Females,50-64
+0,0,0,Nunavut,Females,65-79
+778782,45,5,Quebec,Females,20-34
+1588099,95,5,Ontario,Females,20-34
+113143,10,8,Saskatchewan,Females,20-34
+458555,40,8,Alberta,Females,20-34
+544528,55,10,British Columbia,Females,20-34
+1616324,180,11,Quebec,Both sexes,20-34
+840671,115,13,Quebec,Females,35-49
+837542,140,16,Quebec,Males,20-34
+205854,40,19,Nova Scotia,Both sexes,20-34
+74906,15,20,New Brunswick,Females,35-49
+3286960,720,21,Ontario,Both sexes,20-34
+1481020,320,21,Ontario,Females,35-49
+499453,115,23,Alberta,Females,35-49
+105846,35,33,Nova Scotia,Males,20-34
+135688,45,33,Manitoba,Females,35-49
+1117061,370,33,British Columbia,Both sexes,20-34
+144651,50,34,New Brunswick,Both sexes,20-34
+535442,190,35,British Columbia,Females,35-49
+94947,35,36,Nova Scotia,Females,35-49
+1698861,625,36,Ontario,Males,20-34
+118605,45,37,Saskatchewan,Females,35-49
+879778,350,39,Quebec,Females,50-64
+303910,120,39,Manitoba,Both sexes,20-34
+234864,110,46,Saskatchewan,Both sexes,20-34
+942720,445,47,Alberta,Both sexes,20-34
+1712345,835,48,Quebec,Both sexes,35-49
+1519951,770,50,Ontario,Females,50-64
+89372,50,55,New Brunswick,Females,50-64
+572533,315,55,British Columbia,Males,20-34
+74974,45,60,New Brunswick,Males,20-34
+158077,115,72,Manitoba,Males,20-34
+408895,325,79,Alberta,Females,50-64
+871674,720,82,Quebec,Males,35-49
+121721,100,82,Saskatchewan,Males,20-34
+484165,405,83,Alberta,Males,20-34
+17434,15,86,Prince Edward Island,Females,50-64
+555157,510,91,British Columbia,Females,50-64
+1765123,1800,101,Quebec,Both sexes,50-64
+126891,130,102,Manitoba,Females,50-64
+2915952,3040,104,Ontario,Both sexes,35-49
+111467,120,107,Nova Scotia,Females,50-64
+104544,115,110,Saskatchewan,Females,50-64
+149528,170,113,New Brunswick,Both sexes,35-49
+705600,845,119,Quebec,Females,65-79
+1102100,1350,122,Ontario,Females,65-79
+1061289,1365,128,British Columbia,Both sexes,35-49
+183851,240,130,Nova Scotia,Both sexes,35-49
+272754,355,130,Manitoba,Both sexes,35-49
+1009223,1315,130,Alberta,Both sexes,35-49
+7476,10,133,Nunavut,Both sexes,35-49
+241211,330,136,Saskatchewan,Both sexes,35-49
+2994865,4295,143,Ontario,Both sexes,50-64
+73991,115,155,New Brunswick,Females,65-79
+177753,285,160,New Brunswick,Both sexes,50-64
+885345,1450,163,Quebec,Males,50-64
+30215,50,165,Prince Edward Island,Both sexes,35-49
+423679,725,171,British Columbia,Females,65-79
+14101,25,177,Prince Edward Island,Females,65-79
+1370506,2480,180,Quebec,Both sexes,65-79
+270601,490,181,Alberta,Females,65-79
+90425,170,188,Nova Scotia,Females,65-79
+1434932,2725,189,Ontario,Males,35-49
+821334,1670,203,Alberta,Both sexes,50-64
+2081884,4265,204,Ontario,Both sexes,65-79
+74622,155,207,New Brunswick,Males,35-49
+1077882,2325,215,British Columbia,Both sexes,50-64
+92148,200,217,Manitoba,Females,65-79
+33975,75,220,Prince Edward Island,Both sexes,50-64
+250984,555,221,Manitoba,Both sexes,50-64
+525847,1180,224,British Columbia,Males,35-49
+137066,310,226,Manitoba,Males,35-49
+217500,495,227,Nova Scotia,Both sexes,50-64
+122606,280,228,Saskatchewan,Males,35-49
+88904,205,230,Nova Scotia,Males,35-49
+509770,1200,235,Alberta,Males,35-49
+1474914,3525,238,Ontario,Males,50-64
+142834,345,241,New Brunswick,Both sexes,65-79
+664906,1635,245,Quebec,Males,65-79
+211770,520,245,Saskatchewan,Both sexes,50-64
+3855,10,259,Nunavut,Males,35-49
+88381,230,260,New Brunswick,Males,50-64
+14747,40,271,Prince Edward Island,Males,35-49
+172737,480,277,Nova Scotia,Both sexes,65-79
+524222,1455,277,Alberta,Both sexes,65-79
+809808,2300,284,British Columbia,Both sexes,65-79
+77535,225,290,Saskatchewan,Females,65-79
+979784,2915,297,Ontario,Males,65-79
+177617,540,304,Manitoba,Both sexes,65-79
+26985,85,314,Prince Edward Island,Both sexes,65-79
+412439,1350,327,Alberta,Males,50-64
+16541,55,332,Prince Edward Island,Males,50-64
+68843,230,334,New Brunswick,Males,65-79
+124093,420,338,Manitoba,Males,50-64
+522725,1815,347,British Columbia,Males,50-64
+106033,375,353,Nova Scotia,Males,50-64
+107226,405,377,Saskatchewan,Males,50-64
+253621,965,380,Alberta,Males,65-79
+82312,315,382,Nova Scotia,Males,65-79
+152565,600,393,Saskatchewan,Both sexes,65-79
+85469,340,397,Manitoba,Males,65-79
+386129,1575,407,British Columbia,Males,65-79
+12884,60,465,Prince Edward Island,Males,65-79
+75030,375,499,Saskatchewan,Males,65-79
