@@ -1,2 +1,8 @@
 node_modules/
 .yarn/
+.yarnrc.yml
+package.json
+package-lock.json
+yarn.lock
+.pnp.cjs
+.pnp.loader.mjs
