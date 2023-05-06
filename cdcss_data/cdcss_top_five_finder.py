@@ -131,7 +131,7 @@ for item in diseasesItems:
 
 diseaseNumbers.reverse()
 
-print(f'Highest Relative Risk Factor for {province} {sex} Aged {age[0]}-{age[1]}')
+print(f'Predicted 2023 Highest Relative Risk Factor for {province} {sex} Aged {age[0]}-{age[1]}')
 for x in diseaseNumbers:
     print(x, end=" ")
     print(diseases[x])
