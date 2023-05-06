@@ -1,7 +1,7 @@
 import '../../App'
 import Surv from '../SurveyApp'
 
-function Home() {
+function Su() {
   return (
     <>
       <Surv />
@@ -9,4 +9,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Su;

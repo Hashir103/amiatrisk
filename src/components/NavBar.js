@@ -30,7 +30,7 @@ function NavBar() {
       <nav className="navbar">
           <div className="navbar-container">
               <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-                  AI-AR &nbsp; <i className='fas fa-heart-pulse' />  
+                  AIAR &nbsp; <i className='fas fa-heart-pulse' />  
               </Link>
               <div className='menu-icon' onClick={handleClick}>
                   <i className={click ? 'fas fa-times' : 'fas fa-bars'} />

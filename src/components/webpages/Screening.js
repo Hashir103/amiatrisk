@@ -1,6 +1,12 @@
-import React from 'react';
-import '../../App.css';
+import '../../App'
+import SQ from '../ScreeningQuestionnaire'
 
-export default function ApplyNow() {
-  return <h1 className='applynow'>Screening</h1>;
+function ScreenQ() {
+  return (
+    <>
+      <SQ />
+    </>
+  );
 }
+
+export default ScreenQ;

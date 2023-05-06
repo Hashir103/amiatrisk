@@ -10,9 +10,10 @@ import { Survey } from 'survey-react-ui';
 // const SURVEY_ID = 1;
 
 const surveyJson = {
-    "title": "Health Assessment Screening Form",
+    "title": "Health Assessment Screening Application",
     "description": "All fields with an asterisk (*) are required fields and must be filled out in order to process the information in strict confidentiality.",
     "focusFirstQuestionAutomatic": false,
+    "completedHtml": "<h3>Thank you for completing the application!</h3>",
     "pages": [
      {
       "name": "company-info",
