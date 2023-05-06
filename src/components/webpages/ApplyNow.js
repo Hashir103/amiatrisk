@@ -1,6 +1,12 @@
-import React from 'react';
-import '../../App.css';
+import '../../App'
+import Surv from '../SurveyApp'
 
-export default function ApplyNow() {
-  return <h1 className='applynow'>APPLY NOW</h1>;
+function Home() {
+  return (
+    <>
+      <Surv />
+    </>
+  );
 }
+
+export default Home;

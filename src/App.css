@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   font-family: 'PT Sans', sans-serif;
+
 }
 
 .home,
@@ -21,7 +22,7 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  color: #fff;
+  color: rgb(0, 0, 0);
   font-size: 100px;
 }
 
@@ -42,3 +43,4 @@
   color: #fff;
   font-size: 100px;
 }
+
