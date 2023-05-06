@@ -1,3 +1,6 @@
+'''cdcss_regression.py - this file was used to create the regression model for the Canadian Government Dataset as well as parse the different data
+Only needs to be done once throughout as this data changes every few years. Requestes not necessary'''
+
 import csv
 import numpy as np
 from sklearn.linear_model import LinearRegression
@@ -1132,6 +1135,7 @@ def cleanPopulationCSV():
         writer.writerows(population)
 
 def populationCalculator(userData):
+    # calculate the population of the age group that rerpesents the demogrpahic
     province = userData[0]
     sex = userData[1]
     age = userData[2]
@@ -1171,6 +1175,7 @@ def populationCalculator(userData):
         return totalPop
 
 def regressionModel(provinces, userData):
+  # generate the regression model for the demographic and predict this years risk
   province = userData[0]
   sex = userData[1]
   age = userData[2]
@@ -1198,6 +1203,7 @@ def regressionModel(provinces, userData):
       return [population_2023, numCount, rate_per_100k]
   
 def writeDiseaseInfo(groupData, disease):
+    # write the final disease information to a csv file
     with open(disease, 'w') as csvfile:
       headers = ['Population', 'Count', 'Rate (per 100,000)', 'Province', 'Sex', 'Age Group']
       writer = csv.writer(csvfile)
@@ -1207,6 +1213,7 @@ def writeDiseaseInfo(groupData, disease):
 
 
 def main():
+    # run all the functions
     parsedData = parseFile('FILENAME')
     groupData = []
 
@@ -1231,5 +1238,3 @@ def main():
     # get one by one from stats canada
     writeDiseaseInfo(groupData, 'FILNAME')
        
-
-main()
