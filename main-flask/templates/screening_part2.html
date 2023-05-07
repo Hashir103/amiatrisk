@@ -8853,7 +8853,7 @@
                     <div class="sv_custom_header"></div>
                     <div class="sd-container-modern">
                         <div class="sd-title sd-container-modern__title">
-                            <div class="sd-header__text">
+                            <div class="sd-header__text" style="text-align: center;">
                                 <h3 class="sd-title" aria-label="Health Screening Questionnaire"><span class="sv-string-viewer">Health Screening Questionnaire</span></h3>
                             </div>
                             <div class="sd-hidden"></div>
@@ -8872,13 +8872,21 @@
                                                 aria-labelledby="sq_101_ariaTitle"
                                                 data-rendered="r"
                                                 data-name="question3"
-                                                style="min-height: 300px;"
+                                                style="min-height: 800px;"
                                             >
                                                 <div class="sd-question__header sd-element__header sd-question__header--location-top sd-element__header--location-top">
-                                                    <p style="text-align: center;">
+                                                    <div style="float: right; text-align: right;">
+                                                        <h2>How does this Screening Work?</h2>
+                                                        <p style="text-align:right; white-space: initial;">This screening uses past empirical yearly data taken from the Government of Data. <br> Using this data, we use a Regression Model to predict this year's disease case count. <br> We then compare this count's ratio across Canada, and provide you with the counts with a significant ratio.</p>
+                                                        <br>
+                                                        <img style="width: 500px; height: 300px;" src="static/media/data.png" alt="">
+                                                        <h5><em>Example of Age Distributed Government Data We Use</em></h5>
+                                                    </div>
+                                                    <p>
                                                         {% autoescape false %}
                                                         {{data}}
                                                     {% endautoescape %}</p>
+
                                                     <div class="sd-description sd-question__description" style="display: none;"><span class="sv-string-viewer"></span></div>
                                                 </div>
                                                 <div class="sd-question__content" role="presentation">
@@ -8893,7 +8901,7 @@
                                         <div class="sv-action sv-action--hidden" id="sv-nav-start"><div class="sv-action__content"></div></div>
                                         <div class="sv-action sv-action--hidden" id="sv-nav-prev"><div class="sv-action__content"></div></div>
                                         <div class="sv-action" id="sv-nav-next" >
-                                            <div class="sv-action__content" style="width:25%"><input class="sd-btn sd-navigation__next-btn" title="Submit" value="Submit" /></div>
+                                            <!-- <div class="sv-action__content" style="width:25%"><input class="sd-btn sd-navigation__next-btn" title="Submit" value="Submit" /></div> -->
                                         </div>
                                         <div class="sv-action sv-action--hidden" id="sv-nav-preview"><div class="sv-action__content"></div></div>
                                         <div class="sv-action sv-action--hidden" id="sv-nav-complete"><div class="sv-action__content"></div></div>
