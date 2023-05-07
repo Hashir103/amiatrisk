@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request, redirect, url_for
-import cdcss_top_five_finder as cdcss
+from py_scripts.cdcss_top_five_finder import getTopDiseases
 import json
 import cohere
 co= cohere.Client('AnhwcBAs6bP9NTeUYvAfsI0eMNYTiykmbSVg8HKg')
@@ -15,7 +15,7 @@ def question():
         age = request.form['age']
         province = request.form['province']
         
-        data = cdcss.getTopDiseases(str(province),str(sex),age)
+        data = getTopDiseases(str(province),str(sex),age)
 
         return render_template("result.html", data=data)
 
@@ -76,7 +76,7 @@ def screening():
         age = request.form['age']
         province = request.form['province']
         
-        data = cdcss.getTopDiseases(province, sex, age)
+        data = getTopDiseases(province, sex, age)
         return render_template("screening_part2.html", data=data)
     else:
         return render_template("screening.html")

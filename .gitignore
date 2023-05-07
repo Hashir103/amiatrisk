@@ -6,4 +6,6 @@ package-lock.json
 yarn.lock
 .pnp.cjs
 .pnp.loader.mjs
-cdcss_data/__pycache__
+main-flask/__pycache__
+.DS_Store
+react-final/react-website/node_modules/
