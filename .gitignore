@@ -6,3 +6,4 @@ package-lock.json
 yarn.lock
 .pnp.cjs
 .pnp.loader.mjs
+cdcss_data/__pycache__

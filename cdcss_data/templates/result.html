@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result</title>
+</head>
+<body>
+    <p>{% autoescape false %}
+        {{data}}
+    {% endautoescape %}</p>
+
+    <form action="#" method="post">
+        <p>Do you have a Family History of this disease?</p>
+        <label>
+          <input type="radio" name="fam" value="1">
+          Yes
+        </label>
+        <label>
+          <input type="radio" name="fam" value="2">
+          No
+        </label>
+        <p>Race:</p>
+        <select name="race" id="">
+            <option value=""></option>
+            <option value="African-Canadian">African-Canadian</option>
+            <option value="Asian-Canadian">Asian-Canadian</option>
+            <option value="Native-Canadian">Native-Canadian</option>
+            <option value="Hispanic/Latino">Hispanic/Latino</option>
+            <option value="Causasian">Causasian</option>
+        </select>
+        <br><br>
+        <input type="submit" value="Submit">
+        <br>
+        <br>
+    </form>
+    <a href="/">Home</a>
+</body>
+</html>
