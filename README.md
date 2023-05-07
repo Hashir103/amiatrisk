@@ -1,5 +1,5 @@
 ## Am I At Risk
-Am I at Risk empirically identifies the user demographic’s top 5 most prevalent diseases using machine learning and historical government data.
+Am I at Risk empirically identifies the user's most prevalent diseases using machine learning and historical government data.
 
 ## How To Run
 Open the project directory and run app.py
