@@ -82,7 +82,12 @@ const surveyJson = {
          "Saskatchewan",
          "Yukon"
         ]
-       },
+       }
+      ]
+     },
+     {
+      "name": "page2",
+      "elements": [
        {
         "type": "boolean",
         "name": "question6",
@@ -131,7 +136,7 @@ const surveyJson = {
     "checkErrorsMode": "onComplete",
     "completeText": "Submit",
     "widthMode": "responsive"
-   };
+};
 
 function Surve() {
   const survey = new Model(surveyJson);
