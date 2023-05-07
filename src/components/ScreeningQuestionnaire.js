@@ -134,6 +134,7 @@ const surveyJson = {
     "showQuestionNumbers": "off",
     "questionErrorLocation": "bottom",
     "checkErrorsMode": "onComplete",
+    "pageNextText": "Submit",
     "completeText": "Submit",
     "widthMode": "responsive"
 };

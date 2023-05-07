@@ -15,16 +15,17 @@ function VidSec() {
           className='btns'
           buttonStyle='btn--outline'
           buttonSize='btn--large'
+          destination='/screening'
         >
-          GET STARTED
+          GET STARTED WITH YOUR TEST TODAY
         </Button>
         <Button
           className='btns'
           buttonStyle='btn--outline'
           buttonSize='btn--large'
-          onClick={console.log('hey')}
+          destination='/applynow'
         >
-          Click Here to Learn More
+          Sign Your Company Up for a Free Health Screening
         </Button>
       </div>
     </div>

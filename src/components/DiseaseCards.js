@@ -20,13 +20,13 @@ function DiseaseCards() {
               src={cardio}
               text='Cardiovascular diseases are conditions that affect the heart or blood vessels and are often caused by genetic and lifestyle factors. They are the leading cause of death globally, but many cases can be prevented or managed through lifestyle changes and medical treatments.'
               label='Cardiovascular Diseases'
-              path='/screening'
+              path='/diseases'
             />
             <DiseaseCardItem
               src={diabetes}
               text='Diabetes is a chronic condition that affects how the body processes glucose and can lead to a range of complications such as heart disease, kidney disease, nerve damage, and blindness. It can be managed through medication, diet, exercise, and lifestyle changes.'
               label='Diabetes'
-              path='/screening'
+              path='/diseases'
             />
           </ul>
           <ul className='cards__items'>
@@ -34,13 +34,13 @@ function DiseaseCards() {
               src={neurologic}
               text='Neurological diseases are conditions that affect the brain and nervous system, causing symptoms such as memory loss, tremors, and difficulty with movement. Treatments such as medication, therapy, and lifestyle changes can help manage symptoms and improve quality of life.'
               label='Neurological Conditions'
-              path='/screening'
+              path='/diseases'
             />
             <DiseaseCardItem
               src={musskel}
               text='Musculoskeletal diseases are conditions that affect the muscles, bones, and joints, causing pain, stiffness, and decreased mobility. Treatment options include medication, exercise, physical therapy, and surgery.'
               label='Musculoskeletal Disorders'
-              path='/applynow'
+              path='/diseases'
             />
             <DiseaseCardItem
               src={respir}
