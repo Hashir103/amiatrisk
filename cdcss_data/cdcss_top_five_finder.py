@@ -117,11 +117,11 @@ def getTopDiseases(province, sex, age):
 
     diseaseNumbers.reverse()
 
-    s = f'Predicted 2023 Highest Relative Risk Factor for {province} {sex} Aged {age[0]}-{age[1]}'
+    s = f'<h2>Predicted 2023 Highest Relative Risk Factor</h2><h4><em>{province} {sex} Aged {age[0]}-{age[1]} vs. All Canadian Population</em></h4>'
     s += '<br><br>'
     counter = 1
     for x in diseaseNumbers:
-        s += f'{counter}. {x.replace("_", " ").capitalize()}: {diseases[x]:.3g}' + '<br>'
+        s += f'<h{counter+1 if counter+1 <= 6 else 6}> {counter}. {x.replace("_", " ").capitalize()}: {diseases[x]:.3g} </h{counter+1 if counter+1 <= 6 else 6}>' + '<br>'
         counter += 1
     
     return s
